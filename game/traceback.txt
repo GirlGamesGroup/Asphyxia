@@ -1,0 +1,22 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/script.rpy", line 1029, in script
+    Prota "So, wait, does it matter if we’re young?"
+Exception: Sayer 'Prota' is not defined.
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "game/script.rpy", line 1029, in script
+    Prota "So, wait, does it matter if we’re young?"
+  File "C:\Users\Valeria\Desktop\Renpy Versions\renpy-7.1.1-sdk\renpy\ast.py", line 650, in execute
+    who = eval_who(self.who, self.who_fast)
+  File "C:\Users\Valeria\Desktop\Renpy Versions\renpy-7.1.1-sdk\renpy\ast.py", line 560, in eval_who
+    raise Exception("Sayer '%s' is not defined." % who.encode("utf-8"))
+Exception: Sayer 'Prota' is not defined.
+
+Windows-8-6.2.9200
+Ren'Py 7.1.1.929
+Asphyxia 1.0
+Wed Nov 07 03:07:42 2018
